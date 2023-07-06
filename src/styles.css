@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url(./assets/css/fonts.css);
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
+html {
+    scroll-behavior: smooth;
+  }
+.mat-sidenav {
+    min-width: 16%;
+}
+
+.mat-mdc-card-header {
+    padding-bottom: 15px !important;
+    margin-bottom: 15px !important;
+    background-color: #1c2128 !important;
+    color: white !important;
+}
+
+.mat-icon {
+    height: 20px !important;
+    width: 30px !important;
+}
