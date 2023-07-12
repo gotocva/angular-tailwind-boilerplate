@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "my-personal-blog": {
+    "angular-tailwind-boilerplate": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/my-personal-blog",
+            "outputPath": "dist/angular-tailwind-boilerplate",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": [
@@ -61,10 +61,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "my-personal-blog:build:production"
+              "browserTarget": "angular-tailwind-boilerplate:build:production"
             },
             "development": {
-              "browserTarget": "my-personal-blog:build:development"
+              "browserTarget": "angular-tailwind-boilerplate:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -72,7 +72,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "my-personal-blog:build"
+            "browserTarget": "angular-tailwind-boilerplate:build"
           }
         },
         "test": {

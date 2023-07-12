@@ -1,10 +1,10 @@
 {
-  "name": "my-personal-blog",
+  "name": "angular-tailwind-boilerplate",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build --base-href=/angular-tailwind-boilerplate/dist/angular-tailwind-boilerplate/",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
   },
