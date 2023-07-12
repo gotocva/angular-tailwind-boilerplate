@@ -4,7 +4,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 
 ## Demo
 
-[Open Demo](https://gotocva.github.io/angular-tailwind-boilerplate/dist/angular-tailwind-boilerplate/#)
+[Open Demo](https://gotocva.github.io/angular-tailwind-boilerplate/build/#)
 
 ```
 git clone https://github.com/gotocva/angular-tailwind-boilerplate
