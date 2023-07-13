@@ -14,3 +14,10 @@ npm start
 ```
 
 Open ```http://localhost:4200``` on web browser
+
+
+To implement PWA in angular run below command 
+
+```
+ng add @angular/pwa --project *project-name*
+```
